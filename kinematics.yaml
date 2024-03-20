@@ -1,0 +1,20 @@
+arm:
+  kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+  # kinematics_solver: cached_ik_kinematics_plugin/CachedKDLKinematicsPlugin
+  # kinematics_solver: lma_kinematics_plugin/LMAKinematicsPlugin
+  kinematics_solver_search_resolution: 0.0025
+  kinematics_solver_timeout: 0.05
+  kinematics_solver_attempts: 5
+  # max_cache_size: 100000
+
+arm1:
+  name: 'arm1'
+  x_pose: '-0.5'
+  y_pose: '-0.5'
+  Y: '0.0'
+  
+arm2:
+  name: 'arm2'
+  x_pose: '0.5'
+  y_pose: '0.5'
+  Y: '0.0'
